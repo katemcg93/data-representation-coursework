@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <library>
+        <catalog> Cookery
+            <book>
+                <isbn>978-1526632630</isbn>
+                <title>Gino's Italy: Like Mamma Used to Make</title>
+                <author> Gino D'Acampo</author>
+            </book>
+            <book>
+                <isbn>978-1452179612</isbn>
+                <title>From Crook to Cook: Platinum Recipes from Tha Boss Dogg's Kitchen (Snoop Dog X Chronicle Books)</title>
+                <author>Snoop Dogg</author>
+            </book>
+         </catalog>
+
+        <catalog> Technical
+            <book>
+                <isbn>978-1593279929</isbn>
+                <title>Automate The Boring Stuff With Python, 2Nd Edition: Practical Programming For Total Beginners</title>
+                <author>Al Sweigart</title>
+            </book>
+            <book>
+                <isbn>978-1718502444</isbn>
+                <title>Hacking APIs: Breaking Web Application Programming Interfaces</title>
+                <author>Corey J Ball</title>
+            </book>
+         </catalog>
+
+    </library>
