@@ -1,8 +1,6 @@
 import requests
 import json
 
-url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/JSON-stat/2.0/en"
-
 def get_data(table):
     begin_url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/"
     end_url = "/JSON-stat/2.0/en"
