@@ -1,5 +1,5 @@
 from github import Github
-from cfg import config as cfg
+from cfg2 import config as cfg
 import requests
 
 # Get API Key from config file
@@ -8,7 +8,7 @@ apiKey = cfg["apiKey"]
 
 #Create Github instance
 g = Github(apiKey)
-#print(g)
+print(g)
 
 #Get private repo
 repo = g.get_repo("katemcg93/TestPrivateRepo")
@@ -16,7 +16,6 @@ repo = g.get_repo("katemcg93/TestPrivateRepo")
 
 #Get download url for text file, use requests to access text within file
 file_info = repo.get_contents("test.txt")
-print(file_info)
 url_of_file = file_info.download_url
 response = requests.get(url_of_file)
 data = response.text
